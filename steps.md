@@ -96,6 +96,7 @@ app.listen(PORT, () => {
 ```bash
 npm run dev
 ```
+There will be no src folder under dist. If there are more ts files in different folders under src folder, there will be the same structure under dist folder.
 
 ### 1.9 Initialize Prisma.
 
@@ -245,7 +246,7 @@ main()
 
 #### 2.6.3 Seed the movies
 
-  + Modify seed.ts with the code below and run `npx run seed`
+  + Modify seed.ts with the code below and run `npm run seed`
 
 ```javascript
 ...
