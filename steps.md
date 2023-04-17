@@ -515,7 +515,7 @@ export const deleteActor = async (req, res) => {
 ```javascript
 router.get('/', getAllActors);
 router.get('/:id', getActorById);
-router.put('/:id', getActorById);
+router.put('/:id', updateActor);
 router.delete('/:id', deleteActor);
 ```
 
